@@ -15,6 +15,7 @@ import com.rohithcheloor.homedecore.ui.theme.HomeDecoreTheme
 class DetailActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_detail)
         setContent {
             HomeDecoreTheme {
                 // A surface container using the 'background' color from the theme
